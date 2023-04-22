@@ -11,11 +11,32 @@ public class Power {
 		System.out.println("Enter Value: ");
 		value = myObj.nextInt();   
 	    
-	    System.out.println("Square is: " + value * value);
-	    System.out.println("Cube is: " + value * value * value);
-	    System.out.println("Fourth Power is: " + value * value * value * value);
-	    
-	   
-	    }
+		int square = Power.square(value);
+		int cube = Power.cube(value);
+		int fourth = Power.fourthPower(value);
+		
+		System.out.println("Square is: " + square);
+		System.out.println("Cube is: " + cube);
+		System.out.println("4th powr is: " + fourth);
+		
+		myObj.close();
+		
+
 	}
+	    static int square(int a){
+	    	int sq = a*a;
+	    	return sq;
+	    }
+	    static int cube(int a){
+	    	int cube = a*a*a;
+	    	return cube;
+	    }
+	    static int fourthPower(int a){
+	    	int fourth = a*a*a*a;
+	    	return fourth;
+	    }
+	    
+ }
+
+
 
