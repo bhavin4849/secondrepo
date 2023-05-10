@@ -6,7 +6,7 @@ public class Test1 {
 	{
 		 
 		System.out.println(fun()); 
-		System.out.println(fun1());
+		
 	}
 	static int fun() 
 	{
