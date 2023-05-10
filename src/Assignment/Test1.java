@@ -12,8 +12,5 @@ public class Test1 {
 	{
 		return 20;
 	}
-	static int fun1() 
-	{
-		return 21;
-	}
+
 } 
